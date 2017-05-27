@@ -1,6 +1,0 @@
-title: Steam Web API How-To
-description: A Guide To Get Started
-show_downloads: false
-google_analytics:
-theme: 
-exclude: [README.md, sample.md, another-page.md, script, CONTRIBUTING.md, CODE_OF_CONDUCT.md, Gemfile, Gemfile.lock, LICENSE, thumbnail.png, jekyll-theme-midnight-0.0.4.gem, jekyll-theme-midnight.gemspec]
