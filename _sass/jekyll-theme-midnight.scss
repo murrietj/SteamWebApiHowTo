@@ -196,12 +196,6 @@ dt {
         display:inline-block;
         text-align:center;
 
-        &.current {
-          background: linear_gradient(#749619, #527f0e);
-          background-color: #659e10;
-          border: 1px solid #527f0e;
-        }
-
         &:hover {
           background: linear_gradient(#749619, #527f0e);
           background-color: #659e10;
