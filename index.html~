@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<h1>What is Steam?</h1>
+<p>Steam is the largest digital distribution platform for PC gaming developed by Valve Corporation. Although Steam is mostly known for its gaming software, containing a catalog of over 15,000 games, you can also find a variety of other types of software. These include Photo Editing, Video Production, Game Development, Animation and Modeling, and more. </p>
+
+<h1>What is the Steam Web API?</h1>
+<p>The Steam Web API was created to grant developers easy access to tons of data within Steam. This ranges from user data, application news, and a lot of statistical data. Unfortunately, the official <a href="http://steamcommunity.com/dev">Steam Web API Documentation</a> is quite underwhelming in terms of quality and ease-of-use.</p>
+<h1>Overview</h1>
+<p>This guide was created to bring you up to speed on how to use the Steam Web API. To accomplish this, we have broken this guide into the following stages:</p>
+<dl>
+  <dt>Set-up</dt>
+  <dd>A walk through the initial set-up process which consists of generating an API key to grant you access to the the interface.</dd>
+  <dt>Making Calls</dt>
+  <dd>A detailed description of how to call methods from the API.</dd>
+  <dt>ISteamNews</dt>
+  <dd>An example of calls made to some API methods found in the ISteamNews interface.
+  <dt>ISteamUserStats</dt>
+  <dd>An example of calls made to some API methods found in the ISteamUserStats interface.
+  <dt>Conclusion</dt>
+  <dd>A summary of what you have learned through this documentation</dd>
+</dl>
+<h1>What this site won't do</h1>
+<p>This site is not a tutorial on web development. It is assumed that the reader already has at least some experience with web programming. This guide will make use of the following programming topics that the user should have at least some understanding of:
+<ul>
+  <li>JavaScript Programming Language</li>
+  <li>Node.js</li>
+  <li>Object Oriented Programming</li>
+  <li>Working with the DOM</li>
+  <li>Making GET and POST Requests</li>
+  <li>Making Asynchronous Calls</li>
+  <li>JSON</li>
+</ul>
+<p>All of the information found here isn't particularly specific to the languages/technologies listed above; it is simply what will be used in this guide for the examples. Any concepts relating to the Steam Web API should be easily transferrable.</p>
+<p>This guide is also not intended to replace the official documentation nor was it meant to be a comprehensive documentation for the entire Steam Web API. This is simply meant to be an easy-to-understand getting started guide.
