@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Overview
 ---
-# What this guide will do
+# What this guide **WILL** do
 This guide was created to bring you up to speed on how to use the Steam Web API. To accomplish this, we have broken this guide into the following stages:
 
 <dl>
@@ -13,7 +14,7 @@ This guide was created to bring you up to speed on how to use the Steam Web API.
   <dd>A brief summary of what you have learned through this guide</dd>
 </dl>
 
-# What this guide won't do
+# What this guide **WON'T** do
 
 This site is not a tutorial on web development. It is assumed that the reader already has at least some experience with web programming. This guide will make use of the following programming topics that the user should have at least some understanding of:
 

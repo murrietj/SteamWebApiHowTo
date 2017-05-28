@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Getting Started
 ---
 
 # Register for an API key
@@ -55,7 +56,7 @@ To handle GET requests made to our server, we can now use the`.get()`method. Let
 
 ```js
 app.get('/', function(req, res){
-    //insert code here
+  //insert code here
 })
 ```
 
@@ -65,15 +66,15 @@ Now we want to make an HTTP request to the [Steam Web API](http://steamcommunity
 
 ```js
 app.get('/', function(req, res){
-    //set the url for the request
-    var url = //assign Steam Web API URL here;
-    //make the GET request
-    request.get(url, function(error, steamHttpResponse, steamHttpBody){
-        //After receiving a response from the API, sent the body of the response
-        //as a response to our client.
-        res.setHeader('Content-Type', 'application/json');
-        res.send(steamHttpBody);
-    });
+  //set the url for the request
+  var url = //assign Steam Web API URL here;
+  //make the GET request
+  request.get(url, function(error, steamHttpResponse, steamHttpBody){
+    //After receiving a response from the API, sent the body of the response
+    //as a response to our client.
+    res.setHeader('Content-Type', 'application/json');
+    res.send(steamHttpBody);
+  });
 });
 ```
 **NOTE: Make sure to assign the URL of the desired request to to the`url`variable.**
