@@ -6,9 +6,9 @@ This guide was created to bring you up to speed on how to use the Steam Web API.
 
 <dl>
   <dt><a href="/Getting_Started">Getting Started</a></dt>
-  <dd>Instructions on how to register for an API key and dissection of the URL request string.</dd>
-  <dt><a href="/Making_Calls">Making Calls</a></dt>
-  <dd>A detailed description of how to call methods from the API with the use of examples.</dd>
+  <dd>Instructions on how to register for an API key and dissection of the URL request string. Then a detailed walkthrough on setting up a server to make requests.</dd>
+  <dt><a href="/Example_Calls">Example Calls</a></dt>
+  <dd>A couple of examples using our server to call methods from the API .</dd>
   <dt><a href="/Conclusion">Conclusion</a></dt>
   <dd>A brief summary of what you have learned through this guide</dd>
 </dl>
