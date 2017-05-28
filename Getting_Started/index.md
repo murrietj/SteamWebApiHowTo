@@ -33,3 +33,6 @@ If you do not specify a format, the API will default to JSON.
 
 ## Additional Parameters
 Any additional parameters, required or optional, expected by the method you want to call should be appended to the end of the url delimited by the '&' character.
+
+## Setting up a server
+A quite frustrating feature of the Steam Web API is that it does not allow cross-origin requests. Because of this, we will need to set up our own server to handle the requests. We will do so using [Node.js](https://nodejs.org/) along with the [Express](http://expressjs.com/) and [Request](https://github.com/request/request) packages. To install these packages, you will need [npm](https://www.npmjs.com/) (node package manager). Once you have all of this installed, you are ready to write your server and follow along with the guide.
